@@ -1,0 +1,20 @@
+{
+  "name": "tiktok-backend",
+  "version": "1.0.0",
+  "description": "EPIC TIKTOK backend",
+  "main": "server.js",
+  "module": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Calvin Kabanda",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.10"
+  },
+  "devDependencies": {}
+}
