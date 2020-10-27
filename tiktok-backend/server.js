@@ -24,7 +24,7 @@ app.use((req, res, next) => {
 
 //DB Config
 const connection_url =
-  "mongodb+srv://admin:YxJRtDPWWoqd4GX4@cluster0.n3qiu.mongodb.net/tiktok?retryWrites=true&w=majority";
+  "mongodb+srv://admin:<password>@cluster0.n3qiu.mongodb.net/tiktok?retryWrites=true&w=majority";
 
 mongoose.connect(connection_url, {
   useNewUrlParser: true,
